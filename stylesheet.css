@@ -1,0 +1,282 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  background-color: #292933;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #4c9e9e;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav {
+  display: flex;
+  gap: 5em;
+  font-size: 18px;
+}
+
+.nav li {
+  padding: 5px 14px;
+}
+
+.banner {
+  background-image: url("images/bg7.jpg");
+  background-size: cover;
+  height: 45em;
+}
+
+.banner2 {
+  background-image: url("images/bg8.jpg");
+  background-size: cover;
+  height: 25em;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.logo {
+  padding-top: 10em;
+}
+
+.intro {
+  padding-top: 17em;
+}
+
+.btn1 {
+  width: 8em;
+  height: 3em;
+  text-align: center;
+  border-color: #00bfb2;
+  color: #fff;
+  background-color: #00bfb2;
+  border-radius: 7px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: #006d77;
+  text-decoration: none;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.ready {
+  color: #ffddd2;
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+}
+
+.destinations {
+  padding-top: 7em;
+}
+
+.dest-h {
+  font-family: "Dancing Script", cursive;
+  padding-top: 3em;
+  font-size: 45px;
+  color: #e29578;
+}
+
+.dest-p {
+  float: right;
+  padding-right: 30px;
+}
+
+.card-destinations {
+  margin: 1em;
+  color: #fff;
+}
+
+.dest-card-title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #e29578;
+  font-weight: bold;
+}
+
+.dest-img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.dest {
+  color: #fff;
+}
+
+.testimonials {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.card-testimonials {
+  margin: 1em;
+  background-color: #ffddd2;
+  padding: 15px;
+}
+
+#test-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.test-name {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #e29578;
+}
+
+.ftr {
+  padding: 1em;
+}
+
+.banner-content2 {
+  padding-top: 5em;
+  height: 20em;
+}
+
+.page-title {
+  vertical-align: middle;
+  color: #ffddd2;
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+  text-align: center;
+  line-height: 4em;
+  vertical-align: middle;
+}
+
+.tier-card {
+  text-align: center;
+}
+
+.tier-icon {
+  max-width: 12em;
+}
+
+#tier2 {
+  padding-top: 40px;
+}
+
+#tier3 {
+  padding-top: 70px;
+}
+
+.tier-card-body {
+  color: #fff;
+  text-align: center;
+}
+
+.tier-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #e29578;
+}
+.box-form {
+  padding: 5em;
+}
+
+.support {
+  padding: 3em;
+  background-color: #ffddd2;
+  align-items: center;
+}
+
+.form-group {
+  padding-top: 10px;
+}
+
+#input1 {
+  background: #ffeae3;
+  border: none;
+}
+
+.contact-h {
+  font-family: "Dancing Script", cursive;
+  color: #e29578;
+  font-size: 70px;
+}
+
+.support-h {
+  text-align: center;
+  color: #e29578;
+}
+
+.contact-page-icon {
+  margin-left: 30px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #e29478;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background-color: #cc795b;
+  transition: 0.3s ease;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 540px;
+  width: 100%;
+  position: absolute;
+}
+
+.corporate-text {
+  background-color: #ffddd2;
+  padding: 70px;
+  margin: 5em;
+}
+
+#wireframe {
+  width: 33%;
+  margin: 20px 0px;
+}
+
+.testing-img {
+  margin-left: 60px;
+}
+
+.ftr {
+  text-align: center;
+}
+.ftr-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.mingle {
+  font-size: 0.7em;
+  text-align: center;
+  color: #ffddd2;
+}
